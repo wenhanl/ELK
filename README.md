@@ -20,4 +20,4 @@ Usage:
 
 Problem
 -------
-- Default pattern matching of access log have parsing problem
+- Default pattern matching of access log have parsing problem - solved now
