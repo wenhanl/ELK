@@ -7495,3 +7495,14 @@ Caused by: java.net.ConnectException: Connection refused: /128.237.219.29:9300
 [2014-03-31 17:36:10,870][INFO ][cluster.service          ] [Purge] removed {[logstash-wenhanltekiMacBook-Pro.local-64983-4022][49WFGynxShSW_0CUZkrDkg][wenhanltekiMacBook-Pro.local][inet[/128.237.209.63:9301]]{client=true, data=false},}, reason: zen-disco-node_failed([logstash-wenhanltekiMacBook-Pro.local-64983-4022][49WFGynxShSW_0CUZkrDkg][wenhanltekiMacBook-Pro.local][inet[/128.237.209.63:9301]]{client=true, data=false}), reason transport disconnected (with verified connect)
 [2014-03-31 17:37:08,923][INFO ][cluster.service          ] [Purge] added {[logstash-wenhanltekiMacBook-Pro.local-65048-4022][cRUTYkoBSU-QVE1gCyORWQ][wenhanltekiMacBook-Pro.local][inet[/128.237.209.63:9301]]{client=true, data=false},}, reason: zen-disco-receive(join from node[[logstash-wenhanltekiMacBook-Pro.local-65048-4022][cRUTYkoBSU-QVE1gCyORWQ][wenhanltekiMacBook-Pro.local][inet[/128.237.209.63:9301]]{client=true, data=false}])
 [2014-03-31 17:43:48,221][INFO ][cluster.service          ] [Purge] removed {[logstash-wenhanltekiMacBook-Pro.local-65048-4022][cRUTYkoBSU-QVE1gCyORWQ][wenhanltekiMacBook-Pro.local][inet[/128.237.209.63:9301]]{client=true, data=false},}, reason: zen-disco-node_failed([logstash-wenhanltekiMacBook-Pro.local-65048-4022][cRUTYkoBSU-QVE1gCyORWQ][wenhanltekiMacBook-Pro.local][inet[/128.237.209.63:9301]]{client=true, data=false}), reason transport disconnected (with verified connect)
+[2014-03-31 21:19:45,163][INFO ][node                     ] [Sunturion] version[1.0.1], pid[72620], build[5c03844/2014-02-25T15:52:53Z]
+[2014-03-31 21:19:45,164][INFO ][node                     ] [Sunturion] initializing ...
+[2014-03-31 21:19:45,168][INFO ][plugins                  ] [Sunturion] loaded [], sites []
+[2014-03-31 21:19:47,331][INFO ][node                     ] [Sunturion] initialized
+[2014-03-31 21:19:47,331][INFO ][node                     ] [Sunturion] starting ...
+[2014-03-31 21:19:47,417][INFO ][transport                ] [Sunturion] bound_address {inet[/0:0:0:0:0:0:0:0%0:9300]}, publish_address {inet[/128.237.209.63:9300]}
+[2014-03-31 21:19:50,474][INFO ][cluster.service          ] [Sunturion] new_master [Sunturion][X5_O3PaNRxKrq-iw4HvGOQ][wenhanltekiMacBook-Pro.local][inet[/128.237.209.63:9300]], reason: zen-disco-join (elected_as_master)
+[2014-03-31 21:19:50,512][INFO ][discovery                ] [Sunturion] elasticsearch/X5_O3PaNRxKrq-iw4HvGOQ
+[2014-03-31 21:19:50,529][INFO ][http                     ] [Sunturion] bound_address {inet[/0:0:0:0:0:0:0:0%0:9200]}, publish_address {inet[/128.237.209.63:9200]}
+[2014-03-31 21:19:51,102][INFO ][gateway                  ] [Sunturion] recovered [2] indices into cluster_state
+[2014-03-31 21:19:51,110][INFO ][node                     ] [Sunturion] started
