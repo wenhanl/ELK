@@ -5,7 +5,6 @@ import socket
 import time
 import sys
 
-print len(sys.argv)
 
 if len(sys.argv) != 2:
 	print 'argument error!'
@@ -21,12 +20,14 @@ port = 9999
 s.connect((host, port))
 print 'send start'
 
-while True:
-	for line in f:
-		s.send(line)
-	time.sleep(5)
-
-print 'success!'
+while 1:
+	where = f.tell()
+	line = f.readline()
+	if not line:
+		time.sleep(1)
+		f.seek(where)
+	else:
+		s.send(line),
 	
 
 
