@@ -28,9 +28,7 @@
  	if($check){
  		header("Location: ./welcome.html");
  	}
- 	else{
-
- // if they are not logged in 
+}
 
  ?> 
 
@@ -61,10 +59,6 @@
  </table> 
 
  </form> 
-<?
-}
-}
-?>
 
 </body>
 </html>
